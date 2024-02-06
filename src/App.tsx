@@ -1,17 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar';
 
-function NavBar() {
-  return (
-    <ul className="nav-bar">
-      <li className="nav-bar-element"><a href="./hello.html">Ladder</a></li>
-      <li className="nav-bar-element">Match History</li>
-      <li className="nav-bar-element">Enter Results</li>
-      <li className="nav-bar-element">Login</li>
-    </ul>
-  );
-}
+
 
 function App() {
   return (
