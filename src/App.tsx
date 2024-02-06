@@ -2,17 +2,22 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function NavBar() {
+  return (
+    <ul className="nav-bar">
+      <li className="nav-bar-element"><a href="./hello.html">Ladder</a></li>
+      <li className="nav-bar-element">Match History</li>
+      <li className="nav-bar-element">Enter Results</li>
+      <li className="nav-bar-element">Login</li>
+    </ul>
+  );
+}
+
 function App() {
   return (
     <body>
-      <div className="App">
-          <ul className="nav-bar">
-            <li className="nav-bar-element">Ladder</li>
-            <li className="nav-bar-element">Match History</li>
-            <li className="nav-bar-element">Enter Results</li>
-            <li className="nav-bar-element">Login</li>
-          </ul>
-      </div>
+
+      <NavBar/>
 
       <table className='u-full-width'>
         <thead>
@@ -49,3 +54,4 @@ function App() {
 }
 
 export default App;
+
