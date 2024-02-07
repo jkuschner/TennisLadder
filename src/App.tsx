@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar';
 import MatchHistory from './MatchHistory';
+import Ladder from './Ladder';
 
 
 
@@ -11,6 +12,7 @@ function App() {
     <body>
       <NavBar/>
       <MatchHistory/>
+      <Ladder/>
     </body>
   );
 }
