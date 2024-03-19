@@ -36,4 +36,10 @@ export const matches = [{
     player2: 5,
     date: '02/05/2024',
     result: '0-6 0-6'
+}, {
+    id: 3,
+    player1: 3,
+    player2: 1,
+    date: '02/06/2024',
+    result: '3-6 7-5 7-6'
 }];
